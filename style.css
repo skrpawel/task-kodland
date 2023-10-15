@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;900&display=swap");
+
+button,
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #fc2f20;
+  color: black;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 2em 7.4em;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  gap: 4em;
+}
+
+nav li a {
+  color: black;
+}
+
+footer ul,
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer li a,
+nav li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer li a {
+  color: white;
+}
+
+main {
+  background: url("/images/background2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  padding: 5.8em 7.4em;
+}
+
+main h1 {
+  font-size: 9em;
+  margin: 0;
+}
+
+.content {
+  width: 60%;
+}
+
+.content p {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+  padding: 0.2em 0;
+}
+
+.buy-button {
+  margin: 2.9em 0;
+  background-color: #9bfc50;
+  padding: 0.7em 100px;
+  border: none;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.6em;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5em 22%;
+}
+
+.products-grid {
+  display: flex;
+  flex-direction: column;
+  padding: 5em 15%;
+  text-align: center;
+  gap: 1em;
+  background: #9bfc50;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product h4 {
+  font-weight: 600;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1em;
+}
+
+.product img {
+  max-width: 170px;
+}
+
+.buy-button-product {
+  background-color: #fe7f1f;
+  border: none;
+  padding: 0.5em 3em;
+  color: black;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.rules-grid {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  background: url("/images/bg-grid2.png");
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  padding: 3em 7.4em;
+  margin: 5em 0;
+}
+
+.rules-grid img {
+  width: 35%;
+}
+
+footer {
+  padding: 2em;
+  background: #333333;
+}
